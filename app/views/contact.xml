@@ -1,0 +1,16 @@
+<Alloy>
+	<View id="contact">
+		
+		<Button id="btnEmailUs" onClick="openEmailDialog">E-mail Us</Button>
+		<Button id="btnCallUs" onClick="callNumber">Call Us</Button>
+		<Label id="lblMailUs">Mail Us:</Label>
+		<View ns="Ti.Map" id="mapMailUs" latitudeDelta="0.04" longitudeDelta="0.04" visible="false" platform="android">
+			<!-- annotation styles via inline style -->
+			<Annotation id="annotationAddress" title="5949 E. Clinton Ave." subtitle="Fresno, CA 93727" latitude="36.772384" longitude="-119.684473" draggable="false"/>
+		</View>
+		<View ns="Ti.Map" id="mapMailUs" latitudeDelta="0.04" longitudeDelta="0.04" platform="ios,mobileweb">
+			<!-- annotation styles via inline style -->
+			<Annotation id="annotationAddress" title="5949 E. Clinton Ave." subtitle="Fresno, CA 93727" latitude="36.772384" longitude="-119.684473" draggable="false"/>
+		</View>
+	</View>
+</Alloy>

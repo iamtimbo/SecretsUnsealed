@@ -1,0 +1,7 @@
+<Alloy>
+	<View id="home">
+		<WebView id="webAbout" url="/about.html"></WebView>
+		<Button id="btnPlayIntroVideo" onClick="btnPlayIntroVideo_click">Play Intro Video</Button>
+		<Button id="btnDonate" onClick="btnDonate_click">Donate</Button>
+	</View>
+</Alloy>

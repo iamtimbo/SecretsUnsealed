@@ -1,0 +1,43 @@
+"Label": {
+  color: "#666",
+  font: {
+    fontSize: "16dp"
+  }
+},
+".vgroup": {
+  layout: "vertical",
+  height: Ti.UI.SIZE
+},
+"#row": {
+  height:"38dp",
+  selectedBackgroundColor : "#666",
+  selectedColor : 'white',
+  backgroundColor : "#F9F9F9",
+  backgroundGradient : {
+    type : "linear",
+    startPoint : {
+      x : "0%",
+      y : "0%"
+    },
+    endPoint : {
+      x : "0%",
+      y : "100%"
+    },
+    colors : [{
+      color : "#F9F9F9",
+      offset : "0.0"
+    },
+    {
+      color : "#EEE",
+      offset : "1.0"
+    }]
+  }
+},
+"#icon": {
+  width: "28dp",
+  height: "28dp",
+  left: "5dp"
+},
+"#title": {
+  left: "48dp"
+}

@@ -1,0 +1,10 @@
+<Alloy>
+	<NavigationWindow id="navWin" platform="ios,mobileweb">
+		<Window id="winVimeoPlayer" navBarHidden="false" title="Intro Video">
+			<WebView id="webVimeo" url="http://player.vimeo.com/video/69173678"></WebView>
+		</Window>
+	</NavigationWindow>
+	<Window id="winVimeoPlayer" platform="android" title="Intro Video">
+			<WebView id="webVimeo" url="http://player.vimeo.com/video/69173678"></WebView>
+	</Window>
+</Alloy>

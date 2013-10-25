@@ -1,0 +1,10 @@
+<Alloy>
+	<Window id="winParent" class="container" navBarHidden="true">
+		<NavigationGroup id="premiumnavgroup" platform="ios,mobileweb">
+			<Window id="winCategory">
+				<TableView id="tblResources" onClick="tblResources_Click"></TableView>
+			</Window>
+		</NavigationGroup>
+		<TableView id="tblResources" onClick="tblResources_Click" platform="android"></TableView>
+	</Window>
+</Alloy>

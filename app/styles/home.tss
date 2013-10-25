@@ -1,0 +1,29 @@
+"#home":{
+	layout:"vertical"
+},
+"#webAbout[formFactor=handheld]": {
+	height:"72%"
+},
+"#webAbout[formFactor=tablet]": {
+	height:"80%"
+},
+"#btnPlayIntroVideo[formFactor=handheld]":{
+	height:"35dp",
+	width:"85%",
+	top:"5dp"
+},
+"#btnPlayIntroVideo[formFactor=tablet]":{
+	height:"35dp",
+	width:"85%",
+	top:"10dp"
+},
+"#btnDonate[formFactor=handheld]":{
+	height:"35dp",
+	width:"85%",
+	top:"5dp"
+},
+"#btnDonate[formFactor=tablet]":{
+	height:"35dp",
+	width:"85%",
+	top:"10dp"
+}

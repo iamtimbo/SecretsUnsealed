@@ -1,0 +1,5 @@
+<Alloy>
+	<View id="premium">
+		<TableView id="tblCategories" onClick="tblCategories_click"></TableView>
+	</View>
+</Alloy>

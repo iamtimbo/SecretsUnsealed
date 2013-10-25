@@ -1,0 +1,6 @@
+"Window":{
+	fullscreen:true	
+},
+"Label": {
+	color:'black'
+},

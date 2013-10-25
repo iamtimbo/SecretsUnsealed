@@ -1,0 +1,10 @@
+<Alloy>
+	<NavigationWindow id="navWin" platform="ios,mobileweb">
+		<Window id="winWebView" navBarHidden="false">
+			<WebView id="webView"></WebView>
+		</Window>
+	</NavigationWindow>
+	<Window id="winWebView" platform="android">
+			<WebView id="webView" onBeforeload="webView_beforeload"></WebView>
+	</Window>
+</Alloy>

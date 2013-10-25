@@ -1,0 +1,34 @@
+"#contact":{
+	layout:"vertical"
+},
+"#btnEmailUs": {
+	top: "17dp",
+	height: "40dp",
+	width: "85%"
+},
+"#btnCallUs[formFactor=handheld]": {
+	top: "5dp",
+	height: "40dp",
+	width: "85%"
+},
+"#btnCallUs[formFactor=tablet]": {
+	top: "10dp",
+	height: "40dp",
+	width: "85%"
+}
+"#lblMailUs[formFactor=handheld]": {
+	left: "15dp",
+	top: "5dp",
+	font: {fontSize:"14dp", fontWeight:"bold"}
+},
+"#lblMailUs[formFactor=tablet]": {
+	left: "15dp",
+	top: "10dp",
+	font: {fontSize:"14dp", fontWeight:"bold"}
+},
+"#mapMailUs[formFactor=handheld]": {
+	height:"72%"
+},
+"#mapMailUs[formFactor=tablet]": {
+	height:"80%"
+}
